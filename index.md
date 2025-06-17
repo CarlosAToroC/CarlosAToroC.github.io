@@ -1,5 +1,3 @@
-# Welcome!
-
 Hi, I'm Carlos A Toro C.  
 This website showcases my work, projects, and more.
 
