@@ -1,3 +1,6 @@
+---
+layout: home
+---
 
 <!-- If you haven't uploaded your photo yet, you can leave this line as is or comment it out -->
 <!-- ![My Photo](/assets/me.jpg) -->
