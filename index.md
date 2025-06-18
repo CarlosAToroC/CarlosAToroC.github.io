@@ -14,4 +14,4 @@ Proc. Amer. Math. Soc. 153 (2025), no. 5, 2185–2198.
 
 ## Email
 
-[carlos.toroc@impa.br](carlos.toroc@impa.br)  
+carlos.toroc@impa.br
