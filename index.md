@@ -1,9 +1,3 @@
-<table>
-  <tr>
-    <td><img src="/assets/CarlosT.jpg" alt="Minimal Surface Logo" width="50"></td>
-    <td><h1>Carlos A. Toro C.</h1></td>
-  </tr>
-</table>
 
 <p align="center">
   <img src="/assets/CarlosT.jpg" alt="Carlos A. Toro C." width="250">
