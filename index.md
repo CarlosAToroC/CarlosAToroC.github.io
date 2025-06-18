@@ -1,6 +1,6 @@
 
 <p align="center">
-  <img src="/assets/CarlosT.jpg" alt="Carlos A. Toro C." width="250">
+  <img src="/assets/CarlosT.jpg" width="250">
 </p>
 
 I am currently a PhD student at [IMPA](https://impa.br/) (Instituto de Matemática Pura e Aplicada) under the supervision of professor [Lucas Ambrozio](https://w3.impa.br/~l.ambrozio/).
