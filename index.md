@@ -1,6 +1,5 @@
 
-<!-- If you haven't uploaded your photo yet, you can leave this line as is or comment it out -->
-<!-- ![My Photo](/assets/me.jpg) -->
+[My Photo](/assets/CarlosT.jpg)
 
 I am currently a PhD student at [IMPA](https://impa.br/) (Instituto de Matemática Pura e Aplicada) under the supervision of professor [Lucas Ambrozio](https://w3.impa.br/~l.ambrozio/).
 
