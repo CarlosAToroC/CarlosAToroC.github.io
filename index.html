@@ -41,6 +41,21 @@
       font-size: 1.07em;
       line-height: 1.6;
     }
+    /* New: Side image placed below description inside profile-text */
+    .profile-text .side-image {
+      margin-top: 24px;
+      display: flex;
+      justify-content: center;
+    }
+    .side-image img {
+      width: 220px;
+      height: auto;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: none;
+      display: block;
+      background: transparent;
+    }
     .content-wrapper {
       display: flex;
       align-items: flex-start;
@@ -52,15 +67,6 @@
     .main-content {
       flex: 2;
       min-width: 0;
-    }
-    .side-image img {
-      width: 220px;
-      height: auto;
-      border-radius: 50%;
-      object-fit: cover;
-      box-shadow:none;
-      display: block;
-      background: transparent;
     }
     h2 {
       margin-top: 40px;
@@ -101,8 +107,8 @@
       }
     }
     .main-content ul li {
-  margin-bottom: 12px;
-}
+      margin-bottom: 12px;
+    }
   </style>
 </head>
 <body>
@@ -115,17 +121,21 @@
     </div>
     <div class="profile-text">
       <p>
-        I am currently a PhD student at <a href="https://impa.br/">IMPA</a> (Instituto de Matemática Pura e Aplicada) under the supervision of professor <a href="https://w3.impa.br/~l.ambrozio/">Lucas Ambrozio</a>.
+        I am currently a PhD student at <a href="https://impa.br/">IMPA</a> (Instituto de Matemática Pura e Aplicada) under the supervision of professor <a href="https://w3.impa.br/~l.ambrozio/">Luca Ambrozio</a>.
       </p>
       <p>
         My research area is differential geometry with particular interest in the theory of free boundary minimal surfaces.
       </p>
+      <!-- Side image moved below description -->
+      <div class="side-image">
+        <img src="/assets/CarlosT_transparent.png" alt="Minimal Surface Logo">
+      </div>
     </div>
   </div>
 
   <div class="content-wrapper">
     <div class="main-content">
-            <h2>Email</h2>
+      <h2>Email</h2>
       <p>carlos.toroc@impa.br</p>
       <h2>Publications</h2>
       <ul>
@@ -135,14 +145,11 @@
         </li>
       </ul>
       <h2>Events</h2>
-  <ul>
-    <li>Workshop of Differential Geometry and Geometric Analysis, Fortaleza, Ceará-Brazil, from March 11 to 15, 2024.</li>
-    <li>European Doctorate School of Differential Geometry, Mathematical Institute of the University of Granada-Spain from June 24 to July 5, 2024.</li>
-    <li>21st School of Differential Geometry, Diamantina, Minas Gerais-Brazil, from July 22 to July 26, 2024.</li>
-  </ul>
-    </div>
-    <div class="side-image">
-      <img src="/assets/CarlosT_transparent.png" alt="Minimal Surface Logo">
+      <ul>
+        <li>Workshop of Differential Geometry and Geometric Analysis, Fortaleza, Ceará-Brazil, from March 11 to 15, 2024.</li>
+        <li>European Doctorate School of Differential Geometry, Mathematical Institute of the University of Granada-Spain from June 24 to July 5, 2024.</li>
+        <li>21st School of Differential Geometry, Diamantina, Minas Gerais-Brazil, from July 22 to July 26, 2024.</li>
+      </ul>
     </div>
   </div>
 </body>
