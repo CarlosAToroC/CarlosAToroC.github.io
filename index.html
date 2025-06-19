@@ -11,6 +11,29 @@
       color: #222;
       margin: 40px 0;
     }
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 20px;
+      margin-bottom: 30px;
+      max-width: 700px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .header img {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    .header-title {
+      font-size: 2em;
+      font-weight: bold;
+      letter-spacing: 0.5px;
+      color: #174c7a;
+    }
     .profile-container {
       display: flex;
       align-items: flex-start;
@@ -42,6 +65,7 @@
       text-decoration: underline;
     }
     @media (max-width: 700px) {
+      .header,
       .profile-container {
         flex-direction: column;
         align-items: center;
@@ -55,6 +79,11 @@
   </style>
 </head>
 <body>
+  <div class="header">
+    <!-- Replace with your logo path, e.g. /assets/logo.png or your profile image -->
+    <img src="/assets/CarlosT.jpeg" alt="Carlos Andres Toro Cardona Logo">
+    <span class="header-title">Carlos Andres Toro Cardona</span>
+  </div>
   <div class="profile-container">
     <div class="profile-image">
       <img src="/assets/CarlosAndresToroCardona.jpeg" alt="Carlos Andres Toro Cardona">
