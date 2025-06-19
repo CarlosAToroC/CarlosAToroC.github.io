@@ -1,20 +1,83 @@
-<table cellpadding="0" cellspacing="0">
-  <tr>
-    <td width="250" valign="top">
-      <img src="/assets/CarlosAndresToroCardona.jpeg" width="250">
-    </td>
-    <td width="360" valign="top" style="padding-left:16px;">
-      I am currently a PhD student at <a href="https://impa.br/">IMPA</a> (Instituto de Matemática Pura e Aplicada) under the supervision of professor <a href="https://w3.impa.br/~l.ambrozio/">Lucas Ambrozio</a>.<br><br>
-      My research area is differential geometry with particular interest in the theory of free boundary minimal surfaces.
-    </td>
-  </tr>
-</table>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Carlos Andres Toro Cardona</title>
+  <meta name="viewport" content="width=600, initial-scale=1.0">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      background: #fff;
+      color: #222;
+      margin: 40px 0;
+    }
+    .profile-container {
+      display: flex;
+      align-items: flex-start;
+      max-width: 700px;
+      margin: 0 auto 40px auto;
+      gap: 32px;
+    }
+    .profile-image img {
+      width: 250px;
+      border-radius: 8px;
+      display: block;
+      box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    }
+    .profile-text {
+      max-width: 350px;
+      font-size: 1.07em;
+      line-height: 1.6;
+    }
+    h2 {
+      margin-top: 40px;
+      font-size: 1.3em;
+      color: #174c7a;
+    }
+    a {
+      color: #1c67b2;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 700px) {
+      .profile-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+      }
+      .profile-text {
+        max-width: 90vw;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="profile-container">
+    <div class="profile-image">
+      <img src="/assets/CarlosAndresToroCardona.jpeg" alt="Carlos Andres Toro Cardona">
+    </div>
+    <div class="profile-text">
+      <p>
+        I am currently a PhD student at <a href="https://impa.br/">IMPA</a> (Instituto de Matemática Pura e Aplicada) under the supervision of professor <a href="https://w3.impa.br/~l.ambrozio/">Lucas Ambrozio</a>.
+      </p>
+      <p>
+        My research area is differential geometry with particular interest in the theory of free boundary minimal surfaces.
+      </p>
+    </div>
+  </div>
 
-## Publications
+  <h2>Publications</h2>
+  <ul>
+    <li>
+      <a href="https://doi.org/10.1090/proc/17163">Non-existence of free boundary minimal Möbius bands in the unit three-ball</a><br>
+      <em>Proc. Amer. Math. Soc.</em> 153 (2025), no. 5, 2185–2198.
+    </li>
+  </ul>
 
-- [Non-existence of free boundary minimal Möbius bands in the unit three-ball](https://doi.org/10.1090/proc/17163)  
-Proc. Amer. Math. Soc. 153 (2025), no. 5, 2185–2198.
-
-## Email
-
-carlos.toroc@impa.br
+  <h2>Email</h2>
+  <p>carlos.toroc@impa.br</p>
+</body>
+</html>
